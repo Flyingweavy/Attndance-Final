@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DownloadExaminationData">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Spinner
+            android:id="@+id/center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ListView
+            android:id="@+id/listViewCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+         <Button
+            android:id="@+id/GetExaminationCenter"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
